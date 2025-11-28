@@ -1,5 +1,5 @@
 import { fn } from 'storybook/test';
-import { Button } from './Button';
+import { Button } from "@alfabit/button";
 
 export default {
   title: 'Example/Button',
@@ -15,7 +15,7 @@ export const Primary = {
   args: {
     variant: 'primary',
     size: 'md',
-    label: 'Primary Button',
+    children: 'Primary Button',
   },
 };
 

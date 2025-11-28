@@ -4,7 +4,7 @@ import { StyledButton } from "./Button.styles";
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     variant?: 'primary' | 'secondary' | 'tertiary';
     size?: 'xs' | 'sm' | 'md' | 'lg';  
-    label: string;
+    children: string;
     icon?: React.ReactNode;
     iconPosition?: 'left' | 'right';
     disabled?: boolean;
@@ -14,11 +14,13 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 export const Button = ({
     variant = "primary",
     size = 'md',
-    label,
-    icon,
-    iconPosition,
+    children,
     disabled,
     onClick,
 } : ButtonProps) => {
-    return <StyledButton label={label} variant={variant} size={size} icon={icon} iconPosition={iconPosition} disabled={disabled} onClick={onClick} />
+    return (
+        <StyledButton variant={variant} size={size} disabled={disabled} onClick={onClick}>
+            {children}
+        </StyledButton>
+    )
 }; 

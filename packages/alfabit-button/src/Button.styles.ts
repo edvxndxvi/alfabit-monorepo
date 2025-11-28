@@ -32,9 +32,9 @@ export const StyledButton = styled.button<ButtonProps>`
                 cursor: not-allowed;
             }
         `
-    }
+    };
 
-    ${({ variant}) =>
+    ${({ variant }) =>
         variant === "secondary" &&
         css`
             background-color: transparent;
@@ -55,7 +55,7 @@ export const StyledButton = styled.button<ButtonProps>`
                 cursor: not-allowed;
             }
         `
-    }
+    };
 
     ${({ size }) =>
         size === "xs" &&
@@ -64,7 +64,7 @@ export const StyledButton = styled.button<ButtonProps>`
             font-size: 12px;
             line-height: 16px;
         `
-    }
+    };
 
     ${({ size }) =>
         size === "sm" &&
@@ -73,7 +73,7 @@ export const StyledButton = styled.button<ButtonProps>`
             font-size: 14px;
             line-height: 20px;
         `
-    }
+    };
 
     ${({ size }) =>
         size === "md" &&
@@ -82,7 +82,7 @@ export const StyledButton = styled.button<ButtonProps>`
             font-size: 16px;
             line-height: 24px;
         `
-    }
+    };
 
     ${({ size }) =>
         size === "lg" &&
@@ -91,5 +91,5 @@ export const StyledButton = styled.button<ButtonProps>`
             font-size: 18px;
             line-height: 28px;
         `
-    }
+    };
 `
