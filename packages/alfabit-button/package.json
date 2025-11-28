@@ -1,5 +1,11 @@
 {
-    "name": "@alfabit/button",
+    "name": "@edvxndxvi/alfabit-button",
+    "description": "Botão do Design System alfabit",
+    "author": {
+        "name": "edvxndxvi",
+        "email": "edvandavi1@hotmail.com"
+    },
+    "license": "MIT",
     "version": "0.1.0",
     "main": "./dist/index.js",
     "module": "./dist/index.esm.js",

@@ -13,10 +13,11 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "styled-components": "^6.1.19",
-    "@alfabit/button": "workspace:*"
+    "@edvxndxvi/alfabit-button": "workspace:*"
   },
   "devDependencies": {
     "@eslint/js": "9.39.1",
+    "@storybook/test": "8.6.14",
     "@storybook/addon-themes": "10.0.8",
     "@storybook/react-vite": "10.0.8",
     "@types/react-dom": "^19.2.3",
